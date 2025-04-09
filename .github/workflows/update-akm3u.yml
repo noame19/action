@@ -31,7 +31,7 @@ jobs:
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
         # 检查文件是否有变化
-        git add live.m3u
+        git add live/ak-live.m3u
         if [ -z "$(git status --porcelain)" ]; then
           echo "没有检测到文件变化"
         else

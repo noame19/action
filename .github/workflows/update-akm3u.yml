@@ -15,11 +15,14 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
+      
+    - name: Create live directory
+      run: mkdir -p live   # 确保live目录存在
 
     - name: Download m3u file
       run: |
         # 强制下载并覆盖现有文件，失败时退出
-        curl -f -L -o live.m3u http://aktv.space/live.m3u || exit 1
+        curl -f -L -o live/ak-live.m3u http://aktv.space/live.m3u || exit 1
 
     - name: Commit changes
       run: |

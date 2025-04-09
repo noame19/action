@@ -36,7 +36,7 @@ jobs:
           echo "没有检测到文件变化"
         else
           # 提交并推送变化
-          git commit -m "自动更新直播源文件 [$(date +'%Y-%m-%d %H:%M:%S')]"
+          git commit -m "aklive update in [$(date +'%Y-%m-%d %H:%M:%S')]"
           git push
           echo "文件更新已提交"
         fi

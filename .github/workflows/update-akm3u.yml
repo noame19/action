@@ -1,0 +1,39 @@
+name: Auto Update AK_M3U File
+
+on:
+  schedule:
+    - cron: '0 0,12 * * *'  # 每天 UTC+8 的 0点和12点执行（对应UTC时间16点和4点）
+      timezone: 'Asia/Shanghai'
+  workflow_dispatch:        # 允许手动触发
+
+jobs:
+  update-file:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write      # 赋予写入仓库的权限
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Download m3u file
+      run: |
+        # 强制下载并覆盖现有文件，失败时退出
+        curl -f -L -o live.m3u http://aktv.space/live.m3u || exit 1
+
+    - name: Commit changes
+      run: |
+        # 配置Git用户信息
+        git config --global user.name "GitHub Actions Bot"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+        # 检查文件是否有变化
+        git add live.m3u
+        if [ -z "$(git status --porcelain)" ]; then
+          echo "没有检测到文件变化"
+        else
+          # 提交并推送变化
+          git commit -m "自动更新直播源文件 [$(date +'%Y-%m-%d %H:%M:%S')]"
+          git push
+          echo "文件更新已提交"
+        fi

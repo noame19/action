@@ -69,36 +69,39 @@ https://s1.m16tv.cfd/aktv2/hbo/AKTV.m3u8
 #EXTINF:23 aktv-group="AKTV2" tvg-id="aktv2/iqiyi" tvg-logo="" provider="AKTV2" provider-logo="" provider-type="iptv",📺 IQIYI
 https://s1.m16tv.cfd/aktv2/iqiyi/AKTV.m3u8
 
-#EXTINF:24 aktv-group="AKTV2" tvg-id="aktv2/viutv" tvg-logo="" provider="AKTV2" provider-logo="" provider-type="iptv",📺 VIUTV
+#EXTINF:24 aktv-group="AKTV2" tvg-id="aktv2/tvb" tvg-logo="" provider="AKTV2" provider-logo="" provider-type="iptv",📺 TVB 星河
+https://s1.m16tv.cfd/aktv2/tvb/AKTV.m3u8
+
+#EXTINF:25 aktv-group="AKTV2" tvg-id="aktv2/viutv" tvg-logo="" provider="AKTV2" provider-logo="" provider-type="iptv",📺 VIUTV
 https://s1.m16tv.cfd/aktv2/viutv/AKTV.m3u8
 
-#EXTINF:25 aktv-group="AKTV2" tvg-id="aktv2/CH-2" tvg-logo="" provider="AKTV2" provider-logo="" provider-type="iptv",📺 東森洋片
+#EXTINF:26 aktv-group="AKTV2" tvg-id="aktv2/CH-2" tvg-logo="" provider="AKTV2" provider-logo="" provider-type="iptv",📺 東森洋片
 https://s1.m16tv.cfd/aktv2/CH-2/AKTV.m3u8
 
-#EXTINF:26 aktv-group="AKTV2" tvg-id="aktv2/CH-1" tvg-logo="" provider="AKTV2" provider-logo="" provider-type="iptv",📺 東森電影
+#EXTINF:27 aktv-group="AKTV2" tvg-id="aktv2/CH-1" tvg-logo="" provider="AKTV2" provider-logo="" provider-type="iptv",📺 東森電影
 https://s1.m16tv.cfd/aktv2/CH-1/AKTV.m3u8
 
-#EXTINF:27 aktv-group="AKTV2" tvg-id="aktv2/CH-0" tvg-logo="" provider="AKTV2" provider-logo="" provider-type="iptv",📺 緯來體育台
+#EXTINF:28 aktv-group="AKTV2" tvg-id="aktv2/CH-0" tvg-logo="" provider="AKTV2" provider-logo="" provider-type="iptv",📺 緯來體育台
 https://s1.m16tv.cfd/aktv2/CH-0/AKTV.m3u8
 
-#EXTINF:28 aktv-group="AKTV3" tvg-id="aktv3/cna" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv",📺 CNA
+#EXTINF:29 aktv-group="AKTV3" tvg-id="aktv3/cna" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv",📺 CNA
 https://s1.m16tv.cfd/aktv3/cna/AKTV.m3u8
 
-#EXTINF:29 aktv-group="AKTV3" tvg-id="aktv3/kpop" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv",📺 KPOP+
+#EXTINF:30 aktv-group="AKTV3" tvg-id="aktv3/kpop" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv",📺 KPOP+
 https://s1.m16tv.cfd/aktv3/kpop/AKTV.m3u8
 
-#EXTINF:30 aktv-group="AKTV3" tvg-id="aktv3/CH-0" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv",📺 朝鲜恩情台
+#EXTINF:31 aktv-group="AKTV3" tvg-id="aktv3/CH-0" tvg-logo="" provider="AKTV3" provider-logo="" provider-type="iptv",📺 朝鲜恩情台
 https://s1.m16tv.cfd/aktv3/CH-0/AKTV.m3u8
 
-#EXTINF:31 aktv-group="taiwan" tvg-id="taiwan/CH-0" tvg-logo="" provider="taiwan" provider-logo="" provider-type="iptv",📺 民視第一台
+#EXTINF:32 aktv-group="taiwan" tvg-id="taiwan/CH-0" tvg-logo="" provider="taiwan" provider-logo="" provider-type="iptv",📺 民視第一台
 https://s1.m16tv.cfd/taiwan/CH-0/AKTV.m3u8
 
-#EXTINF:32 aktv-group="TVBS" tvg-id="tvbs/tvbs" tvg-logo="" provider="TVBS" provider-logo="" provider-type="iptv",📺 TVBS新聞
+#EXTINF:33 aktv-group="TVBS" tvg-id="tvbs/tvbs" tvg-logo="" provider="TVBS" provider-logo="" provider-type="iptv",📺 TVBS新聞
 https://s1.m16tv.cfd/tvbs/tvbs/AKTV.m3u8
 
-#EXTINF:33 aktv-group="zhongtian" tvg-id="zhongtian/CH-0" tvg-logo="" provider="zhongtian" provider-logo="" provider-type="iptv",📺 中天新闻台
+#EXTINF:34 aktv-group="zhongtian" tvg-id="zhongtian/CH-0" tvg-logo="" provider="zhongtian" provider-logo="" provider-type="iptv",📺 中天新闻台
 https://s1.m16tv.cfd/zhongtian/CH-0/AKTV.m3u8
 
-#EXTINF:34 aktv-group="zhongtian" tvg-id="zhongtian/CH-1" tvg-logo="" provider="zhongtian" provider-logo="" provider-type="iptv",📺 東森新聞
+#EXTINF:35 aktv-group="zhongtian" tvg-id="zhongtian/CH-1" tvg-logo="" provider="zhongtian" provider-logo="" provider-type="iptv",📺 東森新聞
 https://s1.m16tv.cfd/zhongtian/CH-1/AKTV.m3u8
 

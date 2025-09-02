@@ -1,9 +1,9 @@
 name: Auto Update AK_M3U File
 
 on:
-  #schedule:
-  #  - cron: '0 3,15 * * *'  # 每天 UTC+8 的 0点和12点执行（对应UTC时间16点和4点）
-  #    timezone: 'Asia/Shanghai'
+  schedule:
+    - cron: '0 3,15 * * *'  # 每天 UTC+8 的 0点和12点执行（对应UTC时间16点和4点）
+      timezone: 'Asia/Shanghai'
   workflow_dispatch:        # 允许手动触发
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
     - name: Download m3u file
       run: |
         # 强制下载并覆盖现有文件，失败时退出
-        curl -f -L -o live/ak-live.m3u --retry 3 https://aktv.space/live.m3u || exit 1
+        curl -f -L -o live/ak-live.m3u --retry 3 https://php.946985.xyz/stv.m3u || exit 1
 
     - name: Commit changes
       run: |

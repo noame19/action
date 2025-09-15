@@ -22,7 +22,7 @@ jobs:
     - name: Download m3u file
       run: |
         # 强制下载并覆盖现有文件，失败时退出
-        curl -f -L -o live/ak-live.m3u --retry 3 https://php.946985.xyz/stv.m3u || exit 1
+        curl -f -L -o live/ak-live.m3u --retry 3 https://php.946985.xyz/jackTV.m3u || exit 1
 
     - name: Commit changes
       run: |

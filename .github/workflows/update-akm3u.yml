@@ -2,7 +2,7 @@ name: Auto Update AK_M3U File
 
 on:
   schedule:
-    - cron: '0 15 * * *'  # 每天 UTC+8 的 0点和12点执行（对应UTC时间16点和4点）
+    - cron: '0 * * * *'  # 每天 UTC+8 的 0点和12点执行（对应UTC时间16点和4点）
       timezone: 'Asia/Shanghai'
   workflow_dispatch:        # 允许手动触发
 

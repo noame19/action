@@ -19,10 +19,13 @@ jobs:
     - name: Create live directory
       run: mkdir -p live   # 确保live目录存在
 
+    - name: Debug curl
+      run: curl -v -L  https://php.946985.xyz/jackTV.m3u
+
     - name: Download m3u file
       run: |
         # 强制下载并覆盖现有文件，失败时退出
-        curl -f -L -o live/ak-live.m3u --retry 3 https://php.946985.xyz/jackTV.m3u || exit 1
+        curl -f -L -o live/ak-live.m3u --retry 2 -A "Mozilla/5.0" https://php.946985.xyz/jackTV.m3u || exit 1
 
     - name: Commit changes
       run: |

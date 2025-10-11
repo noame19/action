@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epg.946985.filegear-sg.me/t.xml.gz" x-tvg-url="https://epg.946985.filegear-sg.me/t.xml" catchup="append" catchup-source="?utcstart={utc}&utcend={utcend}"
+#EXTM3U x-tvg-url="https://epg.946985.filegear-sg.me/t.xml" x-tvg-url="https://epg.946985.filegear-sg.me/t.xml.gz" catchup="append" catchup-source="?utcstart={utc}&utcend={utcend}"
 
 #EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/翡翠.png" group-title="JULI",翡翠台
 https://php.946985.filegear-sg.me/iptv/jacktv.php?id=6fb5gm
@@ -518,7 +518,6 @@ https://php.946985.filegear-sg.me/iptv/jacktv.php?id=vzpolk
 https://php.946985.filegear-sg.me/iptv/jacktv.php?id=f3h82z
 #EXTINF:-1 group-title="OFiii",放鬆的爵士午後
 https://php.946985.filegear-sg.me/iptv/jacktv.php?id=nolps5
-
 
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://php.946985.filegear-sg.me/logo/翡翠台.png" group-title="MYTV",翡翠台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
